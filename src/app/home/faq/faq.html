@@ -1,0 +1,64 @@
+<section class="py-2 border-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb mb-0">
+                            <li class="breadcrumb-item"><a routerLink="/" class="text-dark">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">FAQs</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="py-5">
+                    <div>
+                        <div ngbAccordion [closeOthers]="true">
+                            @for (item of faqs; track item) {
+                            <div ngbAccordionItem>
+                                <h2 ngbAccordionHeader>
+                                    <button ngbAccordionButton>{{ item.question }}</button>
+                                </h2>
+                                <div ngbAccordionCollapse>
+                                    <div ngbAccordionBody>
+                                        <ng-template>
+                                            {{item.answer}}
+                                        </ng-template>
+                                    </div>
+                                </div>
+                            </div>
+                            }
+                        </div>
+
+                        <div ngbAccordion [closeOthers]="true">
+                            <div *ngFor="let faq of faqs" ngbAccordionItem [collapsed]="false">
+                                <h2 ngbAccordionHeader>
+                                    <button class="fw-bold" ngbAccordionButton>{{faq.question}}</button>
+                                </h2>
+                                <div ngbAccordionCollapse>
+                                    <div ngbAccordionBody>
+                                        <ng-template>
+                                            {{faq.answer}}
+                                        </ng-template>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="py-5 h-100 border-start ps-3">
+                    <app-side-form></app-side-form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

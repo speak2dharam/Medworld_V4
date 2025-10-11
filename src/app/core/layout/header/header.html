@@ -1,0 +1,125 @@
+<section class="py-3">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col">
+                <div>
+                    <a routerLink="/"><img src="assets/img/logo.png"  height="45" alt=""></a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="text-end">
+                    <a href="https://api.whatsapp.com/send?phone=919811158189&text=Hello%20Doctor" target="_blank" class="btn me-2 whatsapp-bg"><i class="icofont-whatsapp"></i> WhatsApp Us</a>
+                    <a routerLink="/ip/consult-online" target="_blank" class="btn btn-danger">Get a FREE quote</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<header [class.sticky]="isSticky">
+    <nav class="navbar navbar-expand-lg mb-0">
+        <div class="container">
+            <!-- <a class="navbar-brand" [routerLink]="'.'">
+                <img src="/assets/img/logo.png" height="40" alt="">
+            </a> -->
+
+            <!-- Step 3: Toggle the value of the property when the toggler button is clicked. -->
+            <button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">&#9776;</button>
+
+            <!-- Step 2: Add the ngbCollapse directive to the element below. -->
+            <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <!-- Step 4: Close the menu when a link is clicked. -->
+                        <a class="nav-link active" [routerLink]="'.'" (click)="isMenuCollapsed = true">Home</a>
+                    </li>
+                    <li ngbDropdown class="nav-item">
+                        <button type="button" class="nav-link " id="Treatments" ngbDropdownToggle>
+                            Treatments
+                        </button>
+                        <div ngbDropdownMenu aria-labelledby="Treatments">
+                            <a class="dropdown-item" routerLink="/treatment/cancer-treatment-in-India">
+                                <img src="/assets/img/icons/treatments/cancer.png">Cancer Treatment</a>
+
+                            <a class="dropdown-item" routerLink="/treatment/spine-surgery-in-India">
+                                <img src="assets/img/icons/treatments/spine.png">Spine Surgery</a>
+
+                            <a class="dropdown-item" routerLink="/treatment/orthopedic-surgery-in-India">
+                                <img src="assets/img/icons/treatments/orthopedics.png">Orthopedic Surgery</a>
+
+                            <a class="dropdown-item" routerLink="/treatment/heart-treatment-in-India">
+                                <img src="assets/img/icons/treatments/heart.png">Heart Surgery</a>
+
+                            <a class="dropdown-item" routerLink="/treatment/urology-treatment-in-India">
+                                <img src="assets/img/icons/treatments/urology.png">Urology Treatment</a>
+
+                            <a class="dropdown-item" routerLink="/treatment/genral-surgery-in-India">
+                                <img src="assets/img/icons/treatments/surgeon-with-mask.png">General Surgery</a>
+
+                            <a class="dropdown-item" routerLink="/treatment/neurosurgery-in-India">
+                                <img src="assets/img/icons/treatments/brain.png">NeuroSurgery</a>
+
+                            <a class="dropdown-item" routerLink="/treatment/transplant-in-India">
+                                <img src="assets/img/icons/treatments/transplant.png">Transplant Surgery</a>
+
+                            <a class="dropdown-item" routerLink="/treatment/vascular-surgery-in-India">
+                                <img src="assets/img/icons/treatments/vascular.png">Vascular Surgery</a>
+
+                            <a class="dropdown-item" routerLink="/treatment/infertility-treatment-in-India">
+                                <img src="assets/img/icons/treatments/infertility.png">Infertility Treatment</a>
+                            
+                            <!-- <a class="dropdown-item" routerLink="/treatment/health-checkup-in-India">
+                                <img src="assets/img/icons/treatments/checkup.png">Health Checkup</a> -->
+
+                            <a class="dropdown-item" routerLink="/treatment/cosmetic-surgery-in-India">
+                                <img src="assets/img/icons/treatments/beauty.png">Cosmetic Surgery</a>
+
+                            <a class="dropdown-item" routerLink="/treatment/weight-loss-surgery-in-India">
+                                <img src="assets/img/icons/treatments/weightloss.png">Weight Loss Surgery</a>
+                        </div>
+                    </li>
+                    
+                    
+                    <li ngbDropdown class="nav-item">
+                        <button type="button" class="nav-link " id="AdvancedTreatment" ngbDropdownToggle>
+                            Advanced Treatment
+                        </button>
+                        <div ngbDropdownMenu aria-labelledby="AdvancedTreatment">
+                            <a routerLink="/advance-treatments/high-intensity-frequency-ultrasound-treatment" ngbDropdownItem (click)="isMenuCollapsed = true">HIFU</a>
+                            <a routerLink="/advance-treatments/cyberknife" ngbDropdownItem (click)="isMenuCollapsed = true">Cyberknife Robotic</a>
+                            <a routerLink="/advance-treatments/novalis-tx-radiosurgery" ngbDropdownItem (click)="isMenuCollapsed = true">Novalis Tx Radiosurgery</a>
+                            <a routerLink="/advance-treatments/mri-guided-brain-tumor-surgery" ngbDropdownItem (click)="isMenuCollapsed = true">MRI Guided Brain Tumor Surgery</a>
+                            <a routerLink="/advance-treatments/gamma-knife-radiosurgery" ngbDropdownItem (click)="isMenuCollapsed = true">Gamma Knife Radiosurgery</a>
+                            <a routerLink="/advance-treatments/image-guided-radio-therapy" ngbDropdownItem (click)="isMenuCollapsed = true">Image Guided Radio-Therapy</a>
+                            <a routerLink="/advance-treatments/robotic-surgery" ngbDropdownItem (click)="isMenuCollapsed = true">Robotic Surgery</a>
+                            <a routerLink="/advance-treatments/standard-radiotherapy-and-proton-therapy" ngbDropdownItem (click)="isMenuCollapsed = true">Standard Radiotherapy and Proton Therapy</a>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" [routerLink]="'/hospitals'" (click)="isMenuCollapsed = true">Hospitals</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true">Patient Stories</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" [routerLink]="'/gallery'" (click)="isMenuCollapsed = true">Gallery</a>
+                    </li>
+                    <li ngbDropdown class="nav-item">
+                        <button type="button" class="nav-link " id="AboutUs" ngbDropdownToggle>
+                            About Us
+                        </button>
+                        <div ngbDropdownMenu aria-labelledby="AboutUs">
+                            <a routerLink="/about-us" ngbDropdownItem (click)="isMenuCollapsed = true">About Us</a>
+                            <a routerLink="/second-opinion" ngbDropdownItem (click)="isMenuCollapsed = true">Second Opinion</a>
+                            <a routerLink="/why-india" ngbDropdownItem (click)="isMenuCollapsed = true">Why India</a>
+                            <a routerLink="/our-services" ngbDropdownItem (click)="isMenuCollapsed = true">Medworld Services</a>
+                            <a routerLink="/faq" ngbDropdownItem (click)="isMenuCollapsed = true">FAQs</a>
+                            <a routerLink="/contact-us" ngbDropdownItem (click)="isMenuCollapsed = true">Contact Us</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>

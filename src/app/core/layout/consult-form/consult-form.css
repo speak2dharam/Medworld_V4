@@ -1,0 +1,7 @@
+.form-control,.form-select{
+    border-color: #aeaeae;
+}
+.error{
+    color: red;
+        font-size: 12px;
+}

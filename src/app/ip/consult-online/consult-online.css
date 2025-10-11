@@ -1,0 +1,26 @@
+.cnsltLi{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.cnsltLi li{
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 12px;
+    padding-top: 5px;
+}
+.cnsltLi li::before{
+    content: '\eed8';
+    font-family: icofont;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #9e0036;
+    color: #fff;
+    text-align: center;
+    line-height: 32px;
+    font-size: 20px;
+}

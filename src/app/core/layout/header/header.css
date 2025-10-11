@@ -1,0 +1,69 @@
+header{
+    /* background-color: #9E0036; */
+    background-color: #d4d4d4;
+    transition: top 0.3s ease-in-out, padding 0.3s;
+}
+header.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
+
+.navbar {
+    padding: 0;
+
+  }
+  .nav-link {
+    font-weight: 500;
+  }
+  .navbar-nav .nav-link{
+    border-bottom: 4px solid transparent;
+  }
+  .navbar-nav .nav-link:hover{
+    background-color: #fff;
+  }
+
+ .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    border-color: #d4424b;
+}
+.navbar-nav .nav-link.active{
+    /* border-color: #1876a9; */
+    background-color: gainsboro;
+}
+
+  .whatsapp-bg{
+    background-color: #25D366;
+    color: #fff;
+}
+
+header .dropdown-menu{
+  border-radius: 0;
+  /* border: none; */
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+  border: 1px solid gainsboro;
+  border-top: 0;
+  box-shadow: 2px 4px 5px #0000005c;
+}
+header .dropdown-menu .dropdown-item{
+  border-bottom: 1px solid #dedede;
+  font-size: 15px;
+}
+header .dropdown-menu .dropdown-item img{
+  height: 20px;
+    margin-right: 8px;
+}
+header .dropdown-menu .dropdown-item:last-child{
+  border-bottom: none;
+}
+header .dropdown-menu >li{
+    border-bottom: 1px solid #adadad;
+}
+header .dropdown-menu >li:last-child{
+    border-color: transparent;
+}
+
+header .dropdown-menu >li>a{
+    font-size: 15px;
+}

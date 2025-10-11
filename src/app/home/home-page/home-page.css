@@ -1,0 +1,29 @@
+.hero{
+    background-image: url(/../../../assets/img/new-banner.jpg);
+    background-size: cover;
+    background-position: center top;
+    /* min-height:86vh; */
+}
+.intorVDO{
+    z-index: 0;
+}
+.intorVDO::before{
+    content: '';
+    width: 25%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+        background: #D31027;
+    background: linear-gradient(to right, #EA384D, #D31027);
+}
+.intorVDO_Medgg::before{
+    background-color: #1876A9 !important;
+}
+.brand-red-bg{
+    background: #D31027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EA384D, #D31027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EA384D, #D31027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}

@@ -1,0 +1,7 @@
+.sideForm .form-control,.sideForm .form-select{
+    border-color: #acadaf !important;
+}
+.error{
+    color: red;
+        font-size: 12px;
+}

@@ -1,0 +1,44 @@
+.cta-foot span{
+    position: relative;
+    background-color: #fff;
+    height: 48px;
+    width: 48px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+    font-size: 32px;
+    margin-right: 9px;
+}
+.cta-foot span i{
+
+}
+a{
+    text-decoration: none;
+}
+footer h4{
+    color: #c7c8c9;
+    font-size: 18px;
+}
+footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+footer ul li{
+    
+}
+footer ul li a{
+    color: #c7c8c9;
+}
+footer ul li a:hover{
+    
+}
+.foot_social a{
+    margin: 0 6px 6px 0;
+    display: inline-block;
+}
+.foot_social a img{
+    height: 40px;
+}
