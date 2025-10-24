@@ -23,10 +23,6 @@ export const routes: Routes = [
         loadChildren: () => import('./treatment/reatment.routes').then(m => m.treatmentRoutes)
     },
     {
-        path: 'gallery',
-        loadChildren: () => import('./gallery/gallery.routes').then(m => m.hospitalRoutes)
-    },
-    {
         path: '**',
         redirectTo: ''
     }

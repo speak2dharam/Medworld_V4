@@ -1,0 +1,29 @@
+.gallery-masonry {
+  column-count: 3;
+  column-gap: 15px;
+
+  @media (max-width: 992px) {
+    column-count: 3;
+  }
+  @media (max-width: 768px) {
+    column-count: 2;
+  }
+  @media (max-width: 576px) {
+    column-count: 1;
+  }
+}
+
+.masonry-item {
+  margin-bottom: 15px;
+
+  img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  &:hover img {
+    transform: scale(1.03);
+  }
+}

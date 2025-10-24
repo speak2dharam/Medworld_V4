@@ -1,0 +1,49 @@
+<section class="py-2 border-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb mb-0">
+                          <li class="breadcrumb-item"><a routerLink="/" class="text-dark">Home</a></li>
+                          <li class="breadcrumb-item active" aria-current="page">Gallery</li>
+                        </ol>
+                      </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container py-4">
+  <h2 class="text-center mb-4 fs-4">Gallery - Page {{ currentPage }}</h2>
+
+<div class="gallery-masonry">
+  @for (img of currentImages; track $index) {
+    <div class="masonry-item">
+      <img [src]="img" alt="Gallery image" loading="lazy" />
+    </div>
+  }
+</div>
+
+
+
+  <nav aria-label="Gallery pagination" class="mt-4">
+    <ul class="pagination justify-content-center">
+      <li class="page-item" [class.disabled]="currentPage === 1">
+        <a class="page-link" (click)="pageChanged(currentPage - 1)" href="javascript:void(0)">Previous</a>
+      </li>
+
+      @for (page of pages; track page.id) {
+        <li class="page-item" [class.active]="page.id === currentPage">
+          <a class="page-link" (click)="pageChanged(page.id)" href="javascript:void(0)">
+            {{ page.id }}
+          </a>
+        </li>
+      }
+
+      <li class="page-item" [class.disabled]="currentPage === totalPages()">
+        <a class="page-link" (click)="pageChanged(currentPage + 1)" href="javascript:void(0)">Next</a>
+      </li>
+    </ul>
+  </nav>
+</div>

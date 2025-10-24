@@ -8,6 +8,7 @@ import { OurServices } from './our-services/our-services';
 import { Faq } from './faq/faq';
 import { ContactUs } from './contact-us/contact-us';
 import { AboutUs } from './about-us/about-us';
+import { Gallery } from './gallery/gallery';
 
 export const homeRoutes: Routes = [
   {
@@ -24,6 +25,8 @@ export const homeRoutes: Routes = [
         {path:'our-services',component:OurServices},
         {path:'faq',component:Faq},
         {path:'contact-us',component:ContactUs},
+        { path: 'gallery', redirectTo: 'gallery/1', pathMatch: 'full' },
+        { path: 'gallery/:page', component: Gallery },
     ]
   }
 ];
