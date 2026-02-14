@@ -501,7 +501,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/325.jpg',
         '/assets/img/gallery/326.jpg',
         '/assets/img/gallery/327.jpg',
-        '/assets/img/gallery/328.jpg',
+        // '/assets/img/gallery/328.jpg',
         // '/assets/img/gallery/329.jpg',
         // '/assets/img/gallery/330.jpg',
       ],
