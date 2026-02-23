@@ -13,7 +13,7 @@ export class BrainCancer implements OnInit  {
   ngOnInit() {
       // META TITLE
     this.titleService.setTitle(
-      'Brain Cancer | Causes, Symptoms & Treatment Options'
+      'Brain Cancer: Causes, Symptoms & Treatment Options'
     );
 
     // META DESCRIPTION

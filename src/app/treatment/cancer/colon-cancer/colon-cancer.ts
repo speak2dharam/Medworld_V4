@@ -13,7 +13,7 @@ constructor(private titleService: Title, private metaService: Meta, ) {}
   ngOnInit() {
       // META TITLE
     this.titleService.setTitle(
-      'Colon Cancer | Symptoms, Stages & Treatment Options'
+      'Colon Cancer: Symptoms, Stages & Treatment Options'
     );
 
     // META DESCRIPTION

@@ -13,7 +13,7 @@ export class BloodCancer implements OnInit {
   ngOnInit() {
       // META TITLE
     this.titleService.setTitle(
-      'Blood Cancer Treatment in Delhi, India'
+      'Blood Cancer Treatment in India'
     );
 
     // META DESCRIPTION
