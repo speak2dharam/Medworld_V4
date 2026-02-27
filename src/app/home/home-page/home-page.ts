@@ -14,7 +14,7 @@ export class HomePage implements OnInit {
   ngOnInit() {
       // META TITLE
     this.titleService.setTitle(
-      'MedWorldIndia: Trusted Medical Tourism Company in India'
+      'MedWorldIndia Trusted Medical Tourism Company in India'
     );
 
     // META DESCRIPTION
