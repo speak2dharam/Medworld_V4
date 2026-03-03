@@ -10,16 +10,18 @@ import { Meta, Title } from '@angular/platform-browser';
   styleUrl: './home-page.css'
 })
 export class HomePage implements OnInit {
-  constructor(private titleService: Title, private metaService: Meta) {}
+   constructor(private titleService: Title, private metaService: Meta) {}
   ngOnInit() {
-    this.titleService.setTitle('MedWorldIndia | Affordable Medical Tourism in India & Abroad');
+      // META TITLE
+    this.titleService.setTitle(
+      'MedWorldIndia Trusted Medical Tourism Company in India'
+    );
+
+    // META DESCRIPTION
     this.metaService.updateTag({
       name: 'description',
-      content: 'Welcome to the home page of My Application. Explore our treatments and consult with us today!'
-    });
-    this.metaService.updateTag({ 
-      name: 'keywords', 
-      content: 'Angular, Meta Tags, SEO, Tutorial' 
+      content:
+        'Get access to top hospitals in India, UAE & Turkey. Affordable treatments, expert doctors, 24/7 support & end-to-end medical tourism services with MedWorldIndia.'
     });
   }
 }
