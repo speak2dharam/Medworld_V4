@@ -22,7 +22,6 @@ export const hospitalRoutes: Routes = [
         {path:'indraprastha-apollo-hospital-new-delhi',component:IndraprasthaApolloHospitalNewdelhi},
         {path:'blk-hospital-new-delhi',component:BlkHospitalNewdelhi},
         {path:'max-super-speciality-hospital-saket-new-delhi',component:MaxsuperspecialityHospitalSaketNewdelhi},
-        {path:'fortis-memorial-research-institute-gurgaon',component:FortismemorialresearchInstituteGurgaon},
-    ]
+        {path:'fortis-memorial-research-institute-gurgaon',component:FortismemorialresearchInstituteGurgaon}]
   }
 ];

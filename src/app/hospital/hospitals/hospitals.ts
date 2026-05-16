@@ -5,7 +5,7 @@ import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-hospitals',
-  imports: [SideForm,RouterModule],
+  imports: [SideForm, RouterModule],
   templateUrl: './hospitals.html',
   styleUrl: './hospitals.css'
 })

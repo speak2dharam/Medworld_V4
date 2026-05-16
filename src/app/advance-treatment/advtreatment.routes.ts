@@ -28,7 +28,6 @@ export const advtreatmentRoutes: Routes = [
         {path:'gamma-knife-radiosurgery',component:Gammaknife},
         {path:'image-guided-radio-therapy',component:Igrt},
         {path:'robotic-surgery',component:Robotics},
-        {path:'standard-radiotherapy-and-proton-therapy',component:Radiotherapy},
-    ]
+        {path:'standard-radiotherapy-and-proton-therapy',component:Radiotherapy}]
   }
 ];

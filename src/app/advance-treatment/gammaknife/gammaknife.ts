@@ -4,6 +4,7 @@ import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-gammaknife',
+
   imports: [SideForm],
   templateUrl: './gammaknife.html',
   styleUrl: './gammaknife.css'

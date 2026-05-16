@@ -4,6 +4,7 @@ import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-novalis',
+
   imports: [SideForm],
   templateUrl: './novalis.html',
   styleUrl: './novalis.css'

@@ -23,8 +23,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/7.jpg',
         '/assets/img/gallery/8.jpg',
         '/assets/img/gallery/9.jpg',
-        '/assets/img/gallery/10.jpg',
-      ],
+        '/assets/img/gallery/10.jpg'],
     },
     {
       id: 2,
@@ -38,8 +37,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/17.jpg',
         '/assets/img/gallery/18.jpg',
         '/assets/img/gallery/19.jpg',
-        '/assets/img/gallery/20.jpg',
-      ],
+        '/assets/img/gallery/20.jpg'],
     },
     {
       id: 3,
@@ -53,8 +51,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/27.jpg',
         '/assets/img/gallery/28.jpg',
         '/assets/img/gallery/29.jpg',
-        '/assets/img/gallery/30.jpg',
-      ],
+        '/assets/img/gallery/30.jpg'],
     },
     {
       id: 4,
@@ -68,8 +65,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/37.jpg',
         '/assets/img/gallery/38.jpg',
         '/assets/img/gallery/39.jpg',
-        '/assets/img/gallery/40.jpg',
-      ],
+        '/assets/img/gallery/40.jpg'],
     },
     {
       id: 5,
@@ -83,8 +79,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/47.jpg',
         '/assets/img/gallery/48.jpg',
         '/assets/img/gallery/49.jpg',
-        '/assets/img/gallery/50.jpg',
-      ],
+        '/assets/img/gallery/50.jpg'],
     },
     {
       id: 6,
@@ -98,8 +93,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/57.jpg',
         '/assets/img/gallery/58.jpg',
         '/assets/img/gallery/59.jpg',
-        '/assets/img/gallery/60.jpg',
-      ],
+        '/assets/img/gallery/60.jpg'],
     },
     {
       id: 7,
@@ -113,8 +107,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/67.jpg',
         '/assets/img/gallery/68.jpg',
         '/assets/img/gallery/69.jpg',
-        '/assets/img/gallery/70.jpg',
-      ],
+        '/assets/img/gallery/70.jpg'],
     },
     {
       id: 8,
@@ -128,8 +121,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/77.jpg',
         '/assets/img/gallery/78.jpg',
         '/assets/img/gallery/79.jpg',
-        '/assets/img/gallery/80.jpg',
-      ],
+        '/assets/img/gallery/80.jpg'],
     },
     {
       id: 9,
@@ -143,8 +135,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/87.jpg',
         '/assets/img/gallery/88.jpg',
         '/assets/img/gallery/89.jpg',
-        '/assets/img/gallery/90.jpg',
-      ],
+        '/assets/img/gallery/90.jpg'],
     },
     {
       id: 10,
@@ -158,8 +149,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/97.jpg',
         '/assets/img/gallery/98.jpg',
         '/assets/img/gallery/99.jpg',
-        '/assets/img/gallery/100.jpg',
-      ],
+        '/assets/img/gallery/100.jpg'],
     },
     {
       id: 11,
@@ -173,8 +163,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/107.jpg',
         '/assets/img/gallery/108.jpg',
         '/assets/img/gallery/109.jpg',
-        '/assets/img/gallery/110.jpg',
-      ],
+        '/assets/img/gallery/110.jpg'],
     },
     {
       id: 12,
@@ -188,8 +177,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/117.jpg',
         '/assets/img/gallery/118.jpg',
         '/assets/img/gallery/119.jpg',
-        '/assets/img/gallery/120.jpg',
-      ],
+        '/assets/img/gallery/120.jpg'],
     },
     {
       id: 13,
@@ -203,8 +191,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/127.jpg',
         '/assets/img/gallery/128.jpg',
         '/assets/img/gallery/129.jpg',
-        '/assets/img/gallery/130.jpg',
-      ],
+        '/assets/img/gallery/130.jpg'],
     },
     {
       id: 14,
@@ -218,8 +205,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/137.jpg',
         '/assets/img/gallery/138.jpg',
         '/assets/img/gallery/139.jpg',
-        '/assets/img/gallery/140.jpg',
-      ],
+        '/assets/img/gallery/140.jpg'],
     },
     {
       id: 15,
@@ -233,8 +219,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/147.jpg',
         '/assets/img/gallery/148.jpg',
         '/assets/img/gallery/149.jpg',
-        '/assets/img/gallery/150.jpg',
-      ],
+        '/assets/img/gallery/150.jpg'],
     },
     {
       id: 16,
@@ -248,8 +233,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/157.jpg',
         '/assets/img/gallery/158.jpg',
         '/assets/img/gallery/159.jpg',
-        '/assets/img/gallery/160.jpg',
-      ],
+        '/assets/img/gallery/160.jpg'],
     },
     {
       id: 17,
@@ -263,8 +247,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/167.jpg',
         '/assets/img/gallery/168.jpg',
         '/assets/img/gallery/169.jpg',
-        '/assets/img/gallery/170.jpg',
-      ],
+        '/assets/img/gallery/170.jpg'],
     },
     {
       id: 18,
@@ -278,8 +261,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/177.jpg',
         '/assets/img/gallery/178.jpg',
         '/assets/img/gallery/179.jpg',
-        '/assets/img/gallery/180.jpg',
-      ],
+        '/assets/img/gallery/180.jpg'],
     },
     {
       id: 19,
@@ -293,8 +275,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/187.jpg',
         '/assets/img/gallery/188.jpg',
         '/assets/img/gallery/189.jpg',
-        '/assets/img/gallery/190.jpg',
-      ],
+        '/assets/img/gallery/190.jpg'],
     },
     {
       id: 20,
@@ -308,8 +289,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/197.jpg',
         '/assets/img/gallery/198.jpg',
         '/assets/img/gallery/199.jpg',
-        '/assets/img/gallery/200.jpg',
-      ],
+        '/assets/img/gallery/200.jpg'],
     },
     {
       id: 21,
@@ -323,8 +303,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/207.jpg',
         '/assets/img/gallery/208.jpg',
         '/assets/img/gallery/209.jpg',
-        '/assets/img/gallery/210.jpg',
-      ],
+        '/assets/img/gallery/210.jpg'],
     },
     {
       id: 22,
@@ -338,8 +317,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/217.jpg',
         '/assets/img/gallery/218.jpg',
         '/assets/img/gallery/219.jpg',
-        '/assets/img/gallery/220.jpg',
-      ],
+        '/assets/img/gallery/220.jpg'],
     },
     {
       id: 23,
@@ -353,8 +331,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/227.jpg',
         '/assets/img/gallery/228.jpg',
         '/assets/img/gallery/229.jpg',
-        '/assets/img/gallery/230.jpg',
-      ],
+        '/assets/img/gallery/230.jpg'],
     },
     {
       id: 24,
@@ -368,8 +345,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/237.jpg',
         '/assets/img/gallery/238.jpg',
         '/assets/img/gallery/239.jpg',
-        '/assets/img/gallery/240.jpg',
-      ],
+        '/assets/img/gallery/240.jpg'],
     },
     {
       id: 25,
@@ -383,8 +359,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/247.jpg',
         '/assets/img/gallery/248.jpg',
         '/assets/img/gallery/249.jpg',
-        '/assets/img/gallery/250.jpg',
-      ],
+        '/assets/img/gallery/250.jpg'],
     },
     {
       id: 26,
@@ -398,8 +373,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/257.jpg',
         '/assets/img/gallery/258.jpg',
         '/assets/img/gallery/259.jpg',
-        '/assets/img/gallery/260.jpg',
-      ],
+        '/assets/img/gallery/260.jpg'],
     },
     {
       id: 27,
@@ -413,8 +387,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/267.jpg',
         '/assets/img/gallery/268.jpg',
         '/assets/img/gallery/269.jpg',
-        '/assets/img/gallery/270.jpg',
-      ],
+        '/assets/img/gallery/270.jpg'],
     },
     {
       id: 28,
@@ -428,8 +401,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/277.jpg',
         '/assets/img/gallery/278.jpg',
         '/assets/img/gallery/279.jpg',
-        '/assets/img/gallery/280.jpg',
-      ],
+        '/assets/img/gallery/280.jpg'],
     },
     {
       id: 29,
@@ -443,8 +415,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/287.jpg',
         '/assets/img/gallery/288.jpg',
         '/assets/img/gallery/289.jpg',
-        '/assets/img/gallery/290.jpg',
-      ],
+        '/assets/img/gallery/290.jpg'],
     },
     {
       id: 30,
@@ -458,8 +429,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/297.jpg',
         '/assets/img/gallery/298.jpg',
         '/assets/img/gallery/299.jpg',
-        '/assets/img/gallery/300.jpg',
-      ],
+        '/assets/img/gallery/300.jpg'],
     },
     {
       id: 31,
@@ -473,8 +443,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/307.jpg',
         '/assets/img/gallery/308.jpg',
         '/assets/img/gallery/309.jpg',
-        '/assets/img/gallery/310.jpg',
-      ],
+        '/assets/img/gallery/310.jpg'],
     },
     {
       id: 32,
@@ -488,8 +457,7 @@ export class Gallery implements OnInit {
         '/assets/img/gallery/317.jpg',
         '/assets/img/gallery/318.jpg',
         '/assets/img/gallery/319.jpg',
-        '/assets/img/gallery/320.jpg',
-      ],
+        '/assets/img/gallery/320.jpg'],
     },
     {
       id: 33,
