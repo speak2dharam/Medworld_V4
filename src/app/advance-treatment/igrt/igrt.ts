@@ -4,6 +4,7 @@ import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-igrt',
+
   imports: [SideForm],
   templateUrl: './igrt.html',
   styleUrl: './igrt.css'

@@ -26,7 +26,6 @@ export const homeRoutes: Routes = [
         {path:'faq',component:Faq},
         {path:'contact-us',component:ContactUs},
         { path: 'gallery', redirectTo: 'gallery/1', pathMatch: 'full' },
-        { path: 'gallery/:page', component: Gallery },
-    ]
+        { path: 'gallery/:page', component: Gallery }]
   }
 ];

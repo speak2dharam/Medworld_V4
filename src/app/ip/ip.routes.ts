@@ -11,8 +11,7 @@ export const ipRoutes: Routes = [
             path:'consult-online',
             component:ConsultOnline
         },
-        // {path:'about-us',component:AboutUs},
-        
+        // {path:'about-us',component:AboutUs}
     ]
   }
 ];

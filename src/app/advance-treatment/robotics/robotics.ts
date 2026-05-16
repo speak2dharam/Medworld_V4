@@ -4,6 +4,7 @@ import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-robotics',
+
   imports: [SideForm],
   templateUrl: './robotics.html',
   styleUrl: './robotics.css'

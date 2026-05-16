@@ -4,6 +4,7 @@ import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-radiotherapy',
+
   imports: [SideForm],
   templateUrl: './radiotherapy.html',
   styleUrl: './radiotherapy.css'

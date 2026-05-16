@@ -1,0 +1,111 @@
+.people-section {
+    padding: 2.5rem 0 3rem;
+}
+
+.recommended-hospitals-strip__title {
+    align-items: center;
+    color: #4d4d4d;
+    display: inline-flex;
+    font-size: 1.25rem;
+    font-weight: 600;
+    gap: .4rem;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.recommended-hospitals-strip__title:hover,
+.recommended-hospitals-strip__title:focus {
+    color: #0d6efd;
+}
+
+.recommended-hospitals-strip__subtitle {
+    color: #555;
+}
+
+.recommended-hospitals-strip__grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    margin-top: 1.25rem;
+}
+
+.recommended-hospital-tile {
+    color: inherit;
+    display: block;
+    min-width: 0;
+    text-decoration: none;
+    transition: transform .2s ease;
+}
+
+.recommended-hospital-tile:hover,
+.recommended-hospital-tile:focus {
+    transform: translateY(-6px);
+}
+
+.recommended-hospital-tile img {
+    aspect-ratio: 16 / 9;
+    border-radius: 4px;
+    display: block;
+    margin-bottom: .75rem;
+    object-fit: cover;
+    width: 100%;
+}
+
+.recommended-hospital-tile__name,
+.recommended-hospital-tile__location {
+    display: block;
+    line-height: 1.25;
+}
+
+.recommended-hospital-tile__name {
+    color: #555;
+    font-weight: 700;
+}
+
+.recommended-hospital-tile__location {
+    color: #666;
+}
+
+.recommended-hospitals-strip__action {
+    margin-top: 1.75rem;
+    text-align: center;
+}
+
+.recommended-hospitals-strip__button {
+    background: #dc3545;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    font-size: .95rem;
+    font-weight: 600;
+    line-height: 1.1;
+    padding: .75rem 1.35rem;
+    text-decoration: none;
+}
+
+.recommended-hospitals-strip__button:hover,
+.recommended-hospitals-strip__button:focus {
+    background: #bb2d3b;
+    color: #fff;
+}
+
+@media (max-width: 1199.98px) {
+    .recommended-hospitals-strip__grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 767.98px) {
+    .recommended-hospitals-strip__grid {
+        display: flex;
+        gap: .9rem;
+        overflow-x: auto;
+        padding-bottom: .5rem;
+        scroll-snap-type: x mandatory;
+    }
+
+    .recommended-hospital-tile {
+        flex: 0 0 78%;
+        scroll-snap-align: start;
+    }
+}

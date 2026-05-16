@@ -1,0 +1,223 @@
+:host {
+    --medworld-red: #d1343d;
+    --medworld-gray: #646c6e;
+    --medworld-red-soft: #fdecee;
+    --medworld-border: #ead8da;
+    --medworld-ink: #1f2d35;
+}
+
+.cost-table-section {
+    margin: 24px 0 34px;
+}
+
+.table-card {
+    overflow: hidden;
+    border: 1px solid #d8dde2;
+    border-radius: 0;
+    background: #ffffff;
+    box-shadow: none;
+}
+
+.table-card .table-responsive {
+    scrollbar-color: #c8ced4 #f4f5f6;
+}
+
+.cancer-cost-table {
+    min-width: 680px;
+    border-collapse: collapse;
+    color: #000000;
+    font-size: 1.05rem;
+}
+
+.cancer-cost-table thead th {
+    border: 1px solid #d8dde2;
+    background: #f0f0f0;
+    color: #000000;
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding: 14px 12px;
+    text-transform: none;
+}
+
+.cancer-cost-table th,
+.cancer-cost-table td {
+    border: 1px solid #d8dde2;
+    padding: 13px 12px;
+    vertical-align: middle;
+}
+
+.cancer-cost-table tbody tr:nth-child(even) td {
+    background: #eeeeee;
+}
+
+.cancer-cost-table tbody tr:hover td {
+    background: #e7f0f5;
+}
+
+.cancer-cost-table tbody tr:nth-child(odd) td {
+    background: #ffffff;
+}
+
+.cancer-cost-table .serial {
+    width: 62px;
+    text-align: center;
+}
+
+.cancer-cost-table tbody .serial {
+    color: #000000;
+    font-weight: 400;
+}
+
+.cancer-cost-table .price {
+    width: 260px;
+    color: #000000;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.faq-section {
+    background: #f8f9fa;
+}
+
+.faq-header {
+    max-width: 100%;
+}
+
+.faq-header h2 {
+    color: var(--medworld-gray) !important;
+}
+
+.faq-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: var(--medworld-red-soft);
+    color: var(--medworld-red);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.faq-list {
+    width: 100%;
+    max-width: none;
+}
+
+.faq-item {
+    border: 1px solid var(--medworld-border);
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 12px 30px rgba(100, 108, 110, 0.08);
+    overflow: hidden;
+}
+
+.faq-item + .faq-item {
+    margin-top: 14px;
+}
+
+.faq-item summary {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 64px;
+    padding: 18px 58px 18px 22px;
+    color: #1f2d35;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    list-style: none;
+}
+
+.faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq-item summary::after {
+    position: absolute;
+    top: 50%;
+    right: 22px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: var(--medworld-red);
+    color: #ffffff;
+    content: "+";
+    display: grid;
+    place-items: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1;
+    transform: translateY(-50%);
+}
+
+.faq-item[open] {
+    border-color: var(--medworld-red);
+}
+
+.faq-item[open] summary {
+    color: var(--medworld-red);
+}
+
+.faq-item[open] summary::after {
+    content: "-";
+}
+
+.faq-item p {
+    margin: 0;
+    padding: 0 22px 22px;
+    color: var(--medworld-gray);
+    line-height: 1.7;
+}
+
+.faq-item summary:focus-visible {
+    outline: 3px solid rgba(209, 52, 61, 0.25);
+    outline-offset: -3px;
+}
+
+@media (max-width: 575.98px) {
+    .cost-table-section {
+        margin: 22px -2px 30px;
+    }
+
+    .table-card {
+        border-radius: 0;
+    }
+
+    .cancer-cost-table {
+        min-width: 620px;
+        font-size: 0.95rem;
+    }
+
+    .cancer-cost-table thead th,
+    .cancer-cost-table th,
+    .cancer-cost-table td {
+        padding: 12px 14px;
+    }
+
+    .cancer-cost-table .serial {
+        width: 52px;
+    }
+
+    .cancer-cost-table .price {
+        width: 180px;
+    }
+
+    .faq-item summary {
+        min-height: auto;
+        padding: 16px 52px 16px 18px;
+        font-size: 0.95rem;
+    }
+
+    .faq-item summary::after {
+        right: 18px;
+    }
+
+    .faq-item p {
+        padding: 0 18px 18px;
+    }
+}

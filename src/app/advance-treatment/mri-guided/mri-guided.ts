@@ -4,6 +4,7 @@ import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-mri-guided',
+
   imports: [SideForm],
   templateUrl: './mri-guided.html',
   styleUrl: './mri-guided.css'
